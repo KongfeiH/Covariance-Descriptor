@@ -1,2 +1,3 @@
 # Covariance-Descriptor
-a image descriptor
+the python tool of Covariance descriptor
+the introuduce will coming soon
