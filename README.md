@@ -2,7 +2,7 @@
 the python tool of Covariance descriptor,
 the introuduce will coming soon,
 a simple demo:
-···
+```
 from CovarianceDescriptor import CovD
 
 img=...
@@ -16,4 +16,4 @@ T=covd.get_CovD(img)
 T1=covd.get_CovD(img1)
 
 print(CovD.Get_Distance(T,T1))
-···
+```
