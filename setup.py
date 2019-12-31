@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Covariance-Descriptor", 
-    version="1.0.1",
+    version="1.0.4",
     author="Kongfei He",
     author_email="hekongfei@outlook.com",
     description="a image descriptor",
@@ -19,6 +19,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=['numpy>=1.16.2','opencv-python>=3.4.1','scipy>=1.4.1'],
     python_requires='>=3.6',
 )    
-# install_requires=['numpy>=1.16.2','cv2>=0.3','scipy>=3.4.2']
