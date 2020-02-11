@@ -49,7 +49,7 @@ class CovD(object):
         grayimage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
         dimension=sum(self.fx.values())#a error will generated when use np.sum
-        F=np.zeros((rectangle[0],rectangle[1],dimension))
+        F=np.ones((rectangle[0],rectangle[1],dimension))
         dx,dy=self._First_Derivative(grayimage)
         ddx,ddy=self._Second_Derivative(grayimage)
         dx=np.abs(dx)
